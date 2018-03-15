@@ -16,6 +16,7 @@ public class BarAction
     @Override
     public String execute() throws Exception
     {
+        System.out.println("===========executing bar");
         return SUCCESS;
     }
 

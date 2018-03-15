@@ -24,7 +24,6 @@ public class IndexAction
     @Override
     public String execute() throws Exception
     {
-        // log the request headers for fun...
         while (requestHeaderNames.hasMoreElements())
         {
             String requestHeader = requestHeaderNames.nextElement();
